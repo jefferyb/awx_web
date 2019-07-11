@@ -1,4 +1,4 @@
-FROM ansible/awx_web:latest
+FROM ansible/awx_web:4.0.0
 LABEL maintainer="Jeffery Bagirimvano <jefferyb@uark.edu>"
 
 USER root
