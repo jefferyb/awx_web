@@ -6,4 +6,5 @@ ansible/awx_web, https://hub.docker.com/r/ansible/awx_web,  with some additional
 * psycopg2
 * pyvmomi
 * zabbix-api
+* ansible-tower-cli
 

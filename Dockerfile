@@ -1,4 +1,4 @@
-FROM ansible/awx_web:4.0.0
+FROM ansible/awx_web:6.0.0
 LABEL maintainer="Jeffery Bagirimvano <jefferyb@uark.edu>"
 
 ENV PIP_PACKAGES='pywinrm[credssp] requests-credssp psycopg2 pyvmomi zabbix-api ansible-tower-cli'
