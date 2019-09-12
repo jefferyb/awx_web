@@ -1,7 +1,7 @@
-FROM ansible/awx_web:latest
+FROM ansible/awx_web:6.1.0
 LABEL maintainer="Jeffery Bagirimvano <jefferyb@uark.edu>"
 
-ENV PIP_PACKAGES='pywinrm[credssp] requests-credssp psycopg2 pyvmomi zabbix-api ansible-tower-cli'
+ENV PIP_PACKAGES='ansible-tower-cli'
 
 RUN . /var/lib/awx/venv/awx/bin/activate && \
   pip install --user ${PIP_PACKAGES} && \
